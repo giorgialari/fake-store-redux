@@ -1,0 +1,64 @@
+.container-table>table {
+    width: 100% !important;
+}
+
+.container-table>table>thead>tr {
+    font-size: 16px !important;
+}
+
+.container-table>table>thead>tr>th {
+    text-align: center;
+}
+
+.container-table>table>tbody>tr {
+    font-size: 14px !important;
+}
+
+.container-table {
+    width: 80%;
+}
+
+.search-container {
+    width: 100%;
+}
+
+.search-container>div {
+    width: 50%;
+    margin: auto;
+}
+
+.container-table {
+    max-width: 100%;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+.pagination{
+    display: flex;
+    justify-content: flex-end
+}
+.select-pagination{
+    margin-right: 10px;
+    max-width: 80px;
+    font-size: 13px;
+    height: 40px;
+}
+
+/* Paginazione css */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+  
+  .select-pagination {
+    margin-right: 10px;
+  }
+  
+  .pagination>li>a {
+    font-size: 18px;
+  }
+  .select-container {
+    padding-bottom: 15px;
+  }
+  

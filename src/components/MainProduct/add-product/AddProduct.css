@@ -1,0 +1,28 @@
+body{
+    margin-top: 100px;
+}
+
+.title-price-container,.image-category-container{
+    display: flex; 
+    justify-content: space-around;
+}
+.form-container{
+    width: 30%;
+    display: flex; 
+    justify-content: space-around;
+}
+
+input, select{
+    width: 200px !important;
+}
+textarea{
+    width: 410px !important;
+}
+
+label{
+    width: 100%;
+    font-size: 15px;
+    text-align: left !important; 
+    margin-bottom: 0px !important;
+    color: graytext;
+}
